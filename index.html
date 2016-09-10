@@ -1,39 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
 
-        <title>Joshua</title>
-        <script src="https://use.fontawesome.com/cf5366544f.js"></script>
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Under construction... come back later :)</h1>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div id="profile-box">
-                            <img id="profile-pic" src="images/profile.png" height="250" width="250" />
-                            <h4> Joshua Nelsson-Smith </h4>
-                            <p> Tag line, about me link </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p> A little text about the site and what I do </p>
-                        <ul>
-                            <li>Github <i class="fa fa-github-square" aria-hidden="true"></i></li>
-                            <li>LinkedIn <i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
-                            <li>Twitter <i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                            <li>FCC</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Joshua Nelsson-Smith</a>
+      <ul class="right hide-on-med-and-down">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Hi there!</h1>
+        <div class="row center">
+            <img src="images/profile-bw.png" heigh="250px" width="250px" id="profile" />
+          <h5 class="header col s12 light">I'm a second year software engineering student studying at Monash.</h5>
         </div>
-    </body>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey lighten-1">Button</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey lighten-1">Button</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey lighten-1">Button</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax" id="profile-background"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Skill 1</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Skill 2</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center grey-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Skill 3</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer grey">
+    <div class="footer-copyright">
+      <div class="container">
+          <p>Made with love in Melbourne, design by Josh Nelsson-Smith, built using Materialize framework</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
