@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>Development</title>
-      <link>http://joshuaxavier.io/categories/development/</link>
+      <title>Command Line</title>
+      <link>http://joshuaxavier.io/categories/command-line/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/development/</guid>
+      <guid>http://joshuaxavier.io/categories/command-line/</guid>
       <description></description>
     </item>
     
@@ -43,6 +43,15 @@
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
       <guid>http://joshuaxavier.io/categories/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://joshuaxavier.io/categories/terminal/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://joshuaxavier.io/categories/terminal/</guid>
       <description></description>
     </item>
     

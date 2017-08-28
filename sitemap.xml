@@ -29,13 +29,13 @@
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/development/</loc>
+    <loc>http://joshuaxavier.io/categories/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/git/</loc>
+    <loc>http://joshuaxavier.io/tags/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -47,14 +47,14 @@
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/</loc>
+    <loc>http://joshuaxavier.io/tags/git/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/projects/</loc>
-    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <loc>http://joshuaxavier.io/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/resume/</loc>
+    <loc>http://joshuaxavier.io/tags/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -77,19 +77,37 @@
   </url>
   
   <url>
+    <loc>http://joshuaxavier.io/tags/resume/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://joshuaxavier.io/tags/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/version-control/</loc>
+    <loc>http://joshuaxavier.io/categories/terminal/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuaxavier.io/tags/terminal/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://joshuaxavier.io/categories/version-control/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joshuaxavier.io/tags/version-control/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

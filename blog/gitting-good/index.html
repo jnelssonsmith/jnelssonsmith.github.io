@@ -52,7 +52,7 @@
       <div class="container">
         <div class="blog-post">
           <h2>
-            <strong><a href="http://joshuaxavier.io/blog/gitting-good/">gitting good - You can accomplish 99% of your git tasks with 15 commands</a></strong>
+            <strong>gitting good - You can accomplish 99% of your git tasks with 15 commands</strong>
           </h2>
         </div>
         <div class="blog-title">
@@ -67,18 +67,24 @@
 
 <h3 id="tell-me-if-you-ve-heard-this-one-before"><strong>Tell me if you’ve heard this one before:</strong></h3>
 
-<p><em>&ldquo;Oh, you use the command line for git? I’ve always wanted to but never got around to learning it. &lt;insert git GUI app&gt; is just so easy, you know?&rdquo;</em></p>
+<div class="quote">
+<em>"Oh, you use the command line for git? I’ve always wanted to but never got around to learning it. &lt;insert git GUI app&gt; is just so easy, you know?"</em>
+</div>
 
 <p>I hear this from my classmates and from my coworkers all the time. Now I want to clarify early that I am not seeking to invalidate peoples fears towards git and the command line in general - git is a power tool, full of features you will probably never need, and the internet is full of shitty git tutorials. So it’s understandable why people would have an aversion to it.</p>
 
 <p>You also would’ve noticed that many (dare I say most) people get scared off early, or never use git through the command line at all. I certainly remember finding git to be too daunting as a first year, instead preferring to use a GUI, but after a few mistakes and a few more tutorials I returned to the command line and I think you should too.</p>
 
-<p><em>But why bother with the command line? GUI tools are just as good!</em></p>
+<div class="quote">
+<em>But why bother with the command line? GUI tools are just as good!</em>
+</div>
 
 <p>It’s a valid question, there are some great, mature git GUI programs out there, gitKraken, tower, sourcetree etc, all get the job done fine. 
 But they also <strong>cost money</strong>, the command line is <strong>free</strong>. I also believe that the reason you use something over another should not be because you don’t understand the other, but rather you have made an informed decision. Don’t get me wrong - git GUI’s are good, and can help with complex git workflows and large teams, but in general I would say they are overkill for the average small team project.</p>
 
-<p><em>Okay fine, but there’s so many commands, I can’t be expected/bothered to learn everything!</em></p>
+<div class="quote">
+<em>Okay fine, but there’s so many commands, I can’t be expected/bothered to learn everything!</em>
+</div>
 
 <p>What if I told you that there’s no real magic to accomplishing tasks with the command line, and that you can accomplish 99% of your day to day git tasks with only a few commands? Sure there are those fabled ‘git wizards’ at every workplace, <strong>but I’m talking about the day to day stuff</strong>, I bet if you took some time to break down what tasks you perform with git, it would be a fairly small list.</p>
 
@@ -93,12 +99,70 @@ But they also <strong>cost money</strong>, the command line is <strong>free</str
 <p>The first group of commands help with orientating us, they’re all super simple and very useful:</p>
 
 <ul>
-<li><p><code>$ git status</code> - shows staged and unstaged changes, if there is any changes on the upstream branch</p></li>
-
-<li><p><code>$ git log</code> - shows the history of commits, who committed them and the messages for each</p></li>
-
-<li><p><code>$ git branch</code> - shows all the available local branches, useful when you don&rsquo;t quite remember a branch name</p></li>
+<li><code>$ git status</code> - shows staged and unstaged changes, if there is any changes on the upstream branch</li>
+<li><code>$ git log</code> - shows the history of commits, who committed them and the messages for each</li>
+<li><code>$ git branch</code> - shows all the available local branches, useful when you don&rsquo;t quite remember a branch name</li>
 </ul>
+
+<p>This shows all sorts of useful info, like what branch your on, if there are any changes on the remote copy of the branch you’re on and what changes you have staged or un-staged for commit. Think of this like your home-base, and whenever you get lost you can easily return here to get your bearings.</p>
+
+<p><strong>I want to create a new feature branch and get to work</strong>.</p>
+
+<p>Most companies follow a similar git workflow, we create feature branches off of a master or develop branch, commit our changes and once the work is complete we</p>
+
+<p>If in your git status call you found that there were changes in the remote repository you would be prompted to</p>
+
+<ul>
+<li><code>$ git checkout &lt;branch-name&gt;</code> - first checkout the main branch</li>
+<li><code>$ git pull</code> - we pull in changes if any have occurred so we are up to date</li>
+<li><code>$ git checkout -b &lt;new-branch-name&gt;</code> - now we use the -b flag to create a new branch from the previous branch</li>
+</ul>
+
+<p><strong>I want to commit changes and push them up to the remote repository</strong></p>
+
+<p>This is perhaps the most well known group of commands, first we make some changes then:</p>
+
+<ul>
+<li><code>$ git add .</code> - if we just want to add all changes, or you can replace the period with the specific files if you wish</li>
+<li><code>$ git commit -m &quot;your commit message goes here&quot;</code> - we then commit our changes and add a message quickly with the -m flag</li>
+<li><code>$ git push</code> - if you wish you can now push your local changes up to the remote repository</li>
+</ul>
+
+<p><strong>I made a mistake!</strong></p>
+
+<p>We all make mistakes and for such a complex tool, git is pretty forgiving. The most common mistake fixing commands I use are:</p>
+
+<ul>
+<li><code>$ git branch -D &lt;branch-name&gt;</code> - this will delete a given branch: note that you should not be on the branch you wish to delete</li>
+<li><code>$ git commit --amend -m &quot;new message here&quot;</code> - this will amend the commit message of your most recent commit</li>
+<li><code>$ git reset --hard HEAD</code> - this will reset back to</li>
+</ul>
+
+<p><strong>I need to merge my changes and changes in the upstream</strong>
+Perhaps the most daunting task for people using the command line is when merge conflicts arise, but the command is not scary at all</p>
+
+<ul>
+<li><code>$ git merge &lt;branch-to-merge-with&gt;</code> - this will initiate the merge, if any merge conflicts arise then you&rsquo;ll need to open up your editor and choose between the incoming and current changes (or rewrite a combination of the two)</li>
+</ul>
+
+<h3 id="the-niceties"><strong>The niceties:</strong></h3>
+
+<p>These are a few things that are not necessary, but are nice to have and I’ve found myself using them a lot.</p>
+
+<p><strong>I want to know who wrote this code</strong></p>
+
+<p>In larger teams this is a lifesaver, often you’ll see a piece of code that is confusing, or you’ll see changes to your code that you didn’t write and you’ll wonder who changed it.</p>
+
+<ul>
+<li><code>$ git blame &lt;file&gt;</code> - will open a view of the file with each line showing who edited each line last and when.</li>
+</ul>
+
+<p><strong>I’ve written a bunch of commits, but don’t want to clutter my PR with them</strong>
+This is another common task I hear from people, especially when you’ve written a bunch of incremental changes that all really only constitute one piece of work. Well using the follow you can convert those many commits into one:</p>
+
+<pre><code class="language-p">$ git reset --soft HEAD~&lt;number-of-commits&gt;` - this will reset
+$ git commit -m &quot;new message&quot;
+</code></pre>
 
               <hr>
               <h5>
@@ -107,6 +171,10 @@ But they also <strong>cost money</strong>, the command line is <strong>free</str
                 <span class="label label-danger">git</span>
                 
                 <span class="label label-danger">version control</span>
+                
+                <span class="label label-danger">terminal</span>
+                
+                <span class="label label-danger">command line</span>
                 
               </h5>
               <hr>

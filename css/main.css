@@ -175,6 +175,13 @@ html, body {
   font-size: 18px;
 }
 
+.quote {
+  border-left: 2px solid #990000;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
 /* Footer  */
 .footer {
   text-decoration: none !important;
@@ -183,7 +190,7 @@ html, body {
 	color: #6b6b6b;
 }
 div.footer{
-  border-bottom: 5px solid #990000;;
+  border-bottom: 5px solid #990000;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
