@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Describe your website">
+    <link rel="shortcut icon" type="image/x-icon" href="http://joshuaxavier.io/img/favicon.ico">
+    <title>gitting good - You can accomplish 99% of your git tasks with 15 commands</title>
+    <meta name="generator" content="Hugo 0.26" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://joshuaxavier.io/css/main.css" /><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://joshuaxavier.io/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h2>
+            <strong><a href="http://joshuaxavier.io/blog/gitting-good/">gitting good - You can accomplish 99% of your git tasks with 15 commands</a></strong>
+          </h2>
+        </div>
+        <div class="blog-title">
+          <h4>28 August, 2017 - Josh Nelsson-Smith</h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<p>Using git via the command line is a bit of a funny thing, some lambast you, some make you out to be some sort of wizard for not using a GUI, and some think you’re flat out crazy. Whatever your opinion, I’m here to show that using the command line for git really isn’t as bad as a lot of people make it out to be, and I’ve found I can accomplish almost all of my day to day git tasks using as few as 15 commands - and of course you can too!</p>
+
+<h3 id="tell-me-if-you-ve-heard-this-one-before"><strong>Tell me if you’ve heard this one before:</strong></h3>
+
+<p><em>&ldquo;Oh, you use the command line for git? I’ve always wanted to but never got around to learning it. &lt;insert git GUI app&gt; is just so easy, you know?&rdquo;</em></p>
+
+<p>I hear this from my classmates and from my coworkers all the time. Now I want to clarify early that I am not seeking to invalidate peoples fears towards git and the command line in general - git is a power tool, full of features you will probably never need, and the internet is full of shitty git tutorials. So it’s understandable why people would have an aversion to it.</p>
+
+<p>You also would’ve noticed that many (dare I say most) people get scared off early, or never use git through the command line at all. I certainly remember finding git to be too daunting as a first year, instead preferring to use a GUI, but after a few mistakes and a few more tutorials I returned to the command line and I think you should too.</p>
+
+<p><em>But why bother with the command line? GUI tools are just as good!</em></p>
+
+<p>It’s a valid question, there are some great, mature git GUI programs out there, gitKraken, tower, sourcetree etc, all get the job done fine. 
+But they also <strong>cost money</strong>, the command line is <strong>free</strong>. I also believe that the reason you use something over another should not be because you don’t understand the other, but rather you have made an informed decision. Don’t get me wrong - git GUI’s are good, and can help with complex git workflows and large teams, but in general I would say they are overkill for the average small team project.</p>
+
+<p><em>Okay fine, but there’s so many commands, I can’t be expected/bothered to learn everything!</em></p>
+
+<p>What if I told you that there’s no real magic to accomplishing tasks with the command line, and that you can accomplish 99% of your day to day git tasks with only a few commands? Sure there are those fabled ‘git wizards’ at every workplace, <strong>but I’m talking about the day to day stuff</strong>, I bet if you took some time to break down what tasks you perform with git, it would be a fairly small list.</p>
+
+<p>Git is an amazingly powerful tool, but a huge portion of the commands and features it includes you’ll never touch in your day to day work, if I had to look at the commands I use to accomplish 99% of my day to day work it would be a very short list. I took the time to do this and it turned out to be 15 in fact, so I have provided them here as proof that git isn’t all that scary — and you don’t need to be a command line prodigy to get through your day just using the command line.</p>
+
+<h3 id="99-of-git-tasks-you-ll-need-to-do-covered-in-15-commands"><strong>99% of git tasks you’ll need to do covered in 15 commands</strong></h3>
+
+<hr />
+
+<p><strong>I want to see where I am, what my staged and unstaged commits are, what previous commits have occured</strong>.</p>
+
+<p>The first group of commands help with orientating us, they’re all super simple and very useful:</p>
+
+<ul>
+<li><p><code>$ git status</code> - shows staged and unstaged changes, if there is any changes on the upstream branch</p></li>
+
+<li><p><code>$ git log</code> - shows the history of commits, who committed them and the messages for each</p></li>
+
+<li><p><code>$ git branch</code> - shows all the available local branches, useful when you don&rsquo;t quite remember a branch name</p></li>
+</ul>
+
+              <hr>
+              <h5>
+                Tags: &nbsp;&nbsp;
+                
+                <span class="label label-danger">git</span>
+                
+                <span class="label label-danger">version control</span>
+                
+              </h5>
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = 'joshuaxavier-io';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; Copyright Josh Nelsson-Smith 2017. Based on
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> theme.</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://joshuaxavier.io/js/docs.min.js"></script>
+<script src="http://joshuaxavier.io/js/main.js"></script>
+
+<script src="http://joshuaxavier.io/js/ie10-viewport-bug-workaround.js"></script><!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+  </body>
+</html>

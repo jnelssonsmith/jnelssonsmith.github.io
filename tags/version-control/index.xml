@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version Control on Josh Nelsson-Smith</title>
+    <link>http://joshuaxavier.io/tags/version-control/</link>
+    <description>Recent content in Version Control on Josh Nelsson-Smith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://joshuaxavier.io/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gitting good - You can accomplish 99% of your git tasks with 15 commands</title>
+      <link>http://joshuaxavier.io/blog/gitting-good/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://joshuaxavier.io/blog/gitting-good/</guid>
+      <description>Using git via the command line is a bit of a funny thing, some lambast you, some make you out to be some sort of wizard for not using a GUI, and some think you’re flat out crazy. Whatever your opinion, I’m here to show that using the command line for git really isn’t as bad as a lot of people make it out to be, and I’ve found I can accomplish almost all of my day to day git tasks using as few as 15 commands - and of course you can too!</description>
+    </item>
+    
+  </channel>
+</rss>
