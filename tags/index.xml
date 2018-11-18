@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Josh Nelsson-Smith</title>
-    <link>http://joshuaxavier.io/tags/</link>
+    <link>https://jnelssonsmith.com/tags/</link>
     <description>Recent content in Tags on Josh Nelsson-Smith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://joshuaxavier.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jnelssonsmith.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Command Line</title>
-      <link>http://joshuaxavier.io/tags/command-line/</link>
+      <link>https://jnelssonsmith.com/tags/command-line/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/command-line/</guid>
+      <guid>https://jnelssonsmith.com/tags/command-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://joshuaxavier.io/tags/git/</link>
+      <link>https://jnelssonsmith.com/tags/git/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/git/</guid>
+      <guid>https://jnelssonsmith.com/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://joshuaxavier.io/tags/projects/</link>
+      <link>https://jnelssonsmith.com/tags/projects/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/projects/</guid>
+      <guid>https://jnelssonsmith.com/tags/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://joshuaxavier.io/tags/resume/</link>
+      <link>https://jnelssonsmith.com/tags/resume/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/resume/</guid>
+      <guid>https://jnelssonsmith.com/tags/resume/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>http://joshuaxavier.io/tags/terminal/</link>
+      <link>https://jnelssonsmith.com/tags/terminal/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/terminal/</guid>
+      <guid>https://jnelssonsmith.com/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Version Control</title>
-      <link>http://joshuaxavier.io/tags/version-control/</link>
+      <link>https://jnelssonsmith.com/tags/version-control/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/tags/version-control/</guid>
+      <guid>https://jnelssonsmith.com/tags/version-control/</guid>
       <description></description>
     </item>
     

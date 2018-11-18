@@ -3,111 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://joshuaxavier.io/blog/gitting-good/</loc>
+    <loc>https://jnelssonsmith.com/blog/gitting-good/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/projects/</loc>
+    <loc>https://jnelssonsmith.com/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/resume/</loc>
+    <loc>https://jnelssonsmith.com/resume/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/blog/</loc>
+    <loc>https://jnelssonsmith.com/blog/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/</loc>
+    <loc>https://jnelssonsmith.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/command-line/</loc>
+    <loc>https://jnelssonsmith.com/categories/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/command-line/</loc>
+    <loc>https://jnelssonsmith.com/tags/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/git/</loc>
+    <loc>https://jnelssonsmith.com/categories/git/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/git/</loc>
+    <loc>https://jnelssonsmith.com/tags/git/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/</loc>
+    <loc>https://jnelssonsmith.com/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/projects/</loc>
-    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://joshuaxavier.io/tags/projects/</loc>
+    <loc>https://jnelssonsmith.com/categories/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/resume/</loc>
+    <loc>https://jnelssonsmith.com/tags/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/resume/</loc>
+    <loc>https://jnelssonsmith.com/categories/resume/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/</loc>
+    <loc>https://jnelssonsmith.com/tags/resume/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnelssonsmith.com/tags/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/terminal/</loc>
+    <loc>https://jnelssonsmith.com/categories/terminal/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/terminal/</loc>
+    <loc>https://jnelssonsmith.com/tags/terminal/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/categories/version-control/</loc>
+    <loc>https://jnelssonsmith.com/categories/version-control/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshuaxavier.io/tags/version-control/</loc>
+    <loc>https://jnelssonsmith.com/tags/version-control/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

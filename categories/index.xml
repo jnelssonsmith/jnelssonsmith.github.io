@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Josh Nelsson-Smith</title>
-    <link>http://joshuaxavier.io/categories/</link>
+    <link>https://jnelssonsmith.com/categories/</link>
     <description>Recent content in Categories on Josh Nelsson-Smith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="http://joshuaxavier.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jnelssonsmith.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Command Line</title>
-      <link>http://joshuaxavier.io/categories/command-line/</link>
+      <link>https://jnelssonsmith.com/categories/command-line/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/command-line/</guid>
+      <guid>https://jnelssonsmith.com/categories/command-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://joshuaxavier.io/categories/git/</link>
+      <link>https://jnelssonsmith.com/categories/git/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/git/</guid>
+      <guid>https://jnelssonsmith.com/categories/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://joshuaxavier.io/categories/projects/</link>
+      <link>https://jnelssonsmith.com/categories/projects/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/projects/</guid>
+      <guid>https://jnelssonsmith.com/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://joshuaxavier.io/categories/resume/</link>
+      <link>https://jnelssonsmith.com/categories/resume/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/resume/</guid>
+      <guid>https://jnelssonsmith.com/categories/resume/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>http://joshuaxavier.io/categories/terminal/</link>
+      <link>https://jnelssonsmith.com/categories/terminal/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/terminal/</guid>
+      <guid>https://jnelssonsmith.com/categories/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Version Control</title>
-      <link>http://joshuaxavier.io/categories/version-control/</link>
+      <link>https://jnelssonsmith.com/categories/version-control/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://joshuaxavier.io/categories/version-control/</guid>
+      <guid>https://jnelssonsmith.com/categories/version-control/</guid>
       <description></description>
     </item>
     
