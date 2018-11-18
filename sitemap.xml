@@ -29,19 +29,13 @@
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/command-line/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jnelssonsmith.com/tags/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/git/</loc>
+    <loc>https://jnelssonsmith.com/categories/command-line/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -53,14 +47,14 @@
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/</loc>
+    <loc>https://jnelssonsmith.com/categories/git/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/projects/</loc>
-    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <loc>https://jnelssonsmith.com/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -71,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/resume/</loc>
+    <loc>https://jnelssonsmith.com/categories/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -83,13 +77,13 @@
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/tags/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <loc>https://jnelssonsmith.com/categories/resume/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/terminal/</loc>
+    <loc>https://jnelssonsmith.com/tags/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -101,13 +95,19 @@
   </url>
   
   <url>
-    <loc>https://jnelssonsmith.com/categories/version-control/</loc>
+    <loc>https://jnelssonsmith.com/categories/terminal/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jnelssonsmith.com/tags/version-control/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnelssonsmith.com/categories/version-control/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
