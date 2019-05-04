@@ -1,2 +1,2 @@
-# jnelssonsmith.github.io
+# jnelssonsmith.com
 My personal website
