@@ -33,7 +33,7 @@ class Links extends React.Component {
           className={`no-underline link__item${
             isLight ? ' link__item--light' : ''
           }`}
-          href="mailto:https://github.com/jnelssonsmith"
+          href="mailto:jnelssonsmith.dev@gmail.com"
         >
           <i class="fas fa-envelope" />
         </a>
