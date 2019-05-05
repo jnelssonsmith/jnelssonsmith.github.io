@@ -3,7 +3,9 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Layout from '../../components/Layout'
-import BlogPosts from '../../components/BlogPosts'
+import Project from '../../components/Project'
+
+import '../../assets/index.scss';
 
 class Projects extends React.Component {
   render() {
@@ -22,7 +24,7 @@ class Projects extends React.Component {
           title={siteTitle}
         />
         <p>Projects page</p>
-        <p>Projects coming soon!</p>
+        <Project />
       </Layout>
     )
   }

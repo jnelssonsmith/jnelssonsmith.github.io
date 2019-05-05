@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/Layout'
 import BlogPosts from '../../components/BlogPosts'
 
+import '../../assets/index.scss';
+
 class Blog extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')

@@ -2,15 +2,14 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
-import '../assets/blog-post.scss'
-import '../assets/syntax-highlighting.scss'
-
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import BlogPosts from '../components/BlogPosts'
 
-class BlogIndex extends React.Component {
+import '../assets/index.scss';
+
+
+class BlogIndex extends React. Component {
   constructor(props) {
     super(props)
     this.state = {

@@ -30,9 +30,9 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
+          { resolve:'gatsby-remark-prismjs' },
+          { resolve:'gatsby-remark-copy-linked-files' },
+          { resolve:'gatsby-remark-smartypants' },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -70,15 +70,15 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    { resolve:`gatsby-transformer-sharp` },
+    { resolve:`gatsby-plugin-sharp` },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
+    { resolve:`gatsby-plugin-feed` },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -91,8 +91,8 @@ module.exports = {
         icon: `src/assets/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
+    { resolve:`gatsby-plugin-offline` },
+    { resolve:`gatsby-plugin-react-helmet` },
+    { resolve:`gatsby-plugin-sass` },
   ],
 }
