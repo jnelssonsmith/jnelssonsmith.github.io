@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Title",
+    "role": "Role",
+    "client": "Client",
+    "employer": "Employer",
+    "description": "Description",
+    "technologies": [
+      {
+        "link": "#",
+        "label": "Tech 1"
+      },
+      {
+        "link": "#",
+        "label": "Tech 2"
+      }
+    ]
+  }
+]

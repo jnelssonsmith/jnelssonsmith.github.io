@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Layout from '../../components/Layout'
 import Project from '../../components/Project'
 
+import projects from '../../assets/projects.json'
 import '../../assets/index.scss';
 
 class Projects extends React.Component {
@@ -24,7 +25,7 @@ class Projects extends React.Component {
           title={siteTitle}
         />
         <p>Projects page</p>
-        <Project />
+        {projects.map(p => (<Project {...p} />))}
       </Layout>
     )
   }
