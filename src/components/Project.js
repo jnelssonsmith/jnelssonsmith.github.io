@@ -25,7 +25,7 @@ class Project extends React.Component {
   }
 
   render() {
-    const { title, role, client, employer, description, technologies } = this.props;
+    const { title, role, client, employer, description, technologies, link, sourceCodeLink } = this.props;
     return (
       <div className="project">
         <div className="project__header-container">
@@ -39,6 +39,8 @@ class Project extends React.Component {
           <p>{description}</p>
         </div>
         <div className="project__bottom-container">
+
+          <p><a href="#">View source code</a></p>
           {this._renderTechnologies(technologies)}
         </div>
       </div>
