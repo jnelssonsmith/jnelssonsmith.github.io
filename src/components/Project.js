@@ -7,7 +7,9 @@ class Project extends React.Component {
     this._renderTechnologies = this._renderTechnologies.bind(this);
   }
 
-  _renderTechnologies(technologies) {
+  _renderTechnologies() {
+
+    const  {technologies, linkMap } = this.props;
     if (!technologies || technologies.length === 0) {
       return null;
     }
@@ -16,8 +18,8 @@ class Project extends React.Component {
       <React.Fragment>
          <dt className="project__tech-label">Technologies:</dt>
           <dd className="project__tech-values">
-            {technologies.map(t => (
-              <a href={t.link} className="no-underline project__technology">{t.label}</a>
+            {technologies.map(linkID => (
+              <a href={linkMap[linkID].href} className="no-underline project__technology">{linkMap[linkID].label}</a>
             ))}
           </dd>
       </React.Fragment>
@@ -25,7 +27,7 @@ class Project extends React.Component {
   }
 
   render() {
-    const { title, role, client, employer, description, technologies, link, sourceCodeLink } = this.props;
+    const { title, role, client, employer, description, link, sourceCodeLink } = this.props;
     return (
       <div className="project">
         <div className="project__header-container">
@@ -41,7 +43,7 @@ class Project extends React.Component {
         <div className="project__bottom-container">
 
           <p><a href="#">View source code</a></p>
-          {this._renderTechnologies(technologies)}
+          {this._renderTechnologies()}
         </div>
       </div>
     )

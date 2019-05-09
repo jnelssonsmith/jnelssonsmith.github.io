@@ -25,7 +25,7 @@ class Projects extends React.Component {
           title={siteTitle}
         />
         <p>Projects page</p>
-        {projects.map(p => (<Project {...p} />))}
+        {projects.data.map(p => (<Project {...p} linkMap={projects.linkMap} />))}
       </Layout>
     )
   }
