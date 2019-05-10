@@ -2,8 +2,26 @@
 @import "./variables.scss";
 @import "./animations.scss";
 
+
+
 body {
-  color: $base-text-color;
+  --link-color-light: #a0a0a0;
+  --link-color-light-highlight: #FFF;
+
+  &.light {
+    --bg-color:  #FFF;
+    --text-color: rgba(0, 0, 0, 0.84);
+    --link-color: var(--text-color);
+    --link-color-highlight: var(--text-color);
+  }
+
+  &.dark {
+    --text-color: hsla(0,0%,100%,0.88);
+    --bg-color: #1a1a1a;
+    --link-color: #a0a0a0;
+    --link-color-highlight: #FFF;
+  }
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.02em;
@@ -11,13 +29,11 @@ body {
   font-weight: 400;
   font-kerning: normal;
   margin: 0;
-  background-color: white;
-  transition: color 0.2s ease-out 0s, background 0.2s ease-out 0s;
 
-  &.dark {
-    color: hsla(0,0%,100%,0.88);
-    background-color: #1a1a1a;
-  }
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  transition: color 0.2s ease-out 0s, background 0.2s ease-out 0s;
 
   &.scroll-lock {
     position: fixed;
@@ -29,24 +45,18 @@ body {
 }
 
 a:not(.no-underline) {
-  color: $base-text-color;
+  color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
   padding-bottom: 1px;
-  border-bottom: 1px solid black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 1) 5%);
+  border-bottom: 1px solid var(--text-color);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--text-color) 5%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: 0.1s linear all;
 
   &:hover, &:focus {
     background-size: 100% 100%;
-  }
-
-  .dark &, .menu-container & {
-    color: #FFF;
-    border-bottom: 1px solid #FFF;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(255, 255, 255, 1) 5%);
   }
 }
 
@@ -57,13 +67,9 @@ a:not(.no-underline) {
 
 blockquote {
   font-style: italic;
-  border-left: 3px solid black;
+  border-left: 3px solid var(--text-color);
   padding-left: 20px;
   margin-left: -23px;
-
-  .dark & {
-    border-left: 3px solid white;
-  }
 }
 
 pre {
@@ -72,8 +78,6 @@ pre {
   overflow: auto;
   padding: 1em;
 }
-
-
 
 .navigation-bar {
   display: flex;
@@ -105,11 +109,7 @@ pre {
 }
 
 .nav-link:not(.first):not(.menu) {
-  border-left: 1px solid black;
-
-  .dark & {
-    border-left: 1px solid #FFF;
-  }
+  border-left: 1px solid var(--text-color);
 }
 
 .nav-link:visited {
@@ -121,10 +121,6 @@ pre {
 .nav-link-container {
   display: flex;
   align-items: center;
-
-  .dark & {
-    color: #FFF
-  }
 }
 
 .home-link {
@@ -162,29 +158,26 @@ pre {
 .link__item {
   padding-bottom: 2px;
   margin: 0 20px 0 0;
-  color: $link-color;
+  color: var(--link-color);
   transition-property: background-color, color, opacity, font-size;
   transition-duration: 250ms;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 1) 5%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--text-color) 5%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: 0.1s linear all;
 
   &:hover, &:focus {
+    color: var(--link-color-highlight);
     background-size: 100% 100%;
-  }
-
-  .dark & {
-    color: #FFF;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(255, 255, 255, 1) 5%);
   }
 
   &--light,
   .dark &--light {
-    color: $link-color-light;
+    color: var(--link-color-light);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--link-color-light-highlight) 5%);
 
     &:hover, &:focus {
-      color: $link-color-light-hightlight;
+      color: var(--link-color-light-highlight);
     }
   }
 }
@@ -254,6 +247,7 @@ pre {
 }
 
 a.menu-link {
+  color: white;
   margin: 20px;
   font-weight: normal;
 }

@@ -50,6 +50,7 @@ class BlogIndex extends React. Component {
           title={siteTitle}
         />
         <Bio disableAnimations={disableAnimations} />
+        <div className="test"></div>
         <div className={!disableAnimations && 'fade-in--nav'}>
           <hr />
           <h2 className="header--brush-stroke">
@@ -70,6 +71,7 @@ class BlogIndex extends React. Component {
           </h2>
           <p>Projects coming soon!</p>
         </div>
+        
       </Layout>
     )
   }
