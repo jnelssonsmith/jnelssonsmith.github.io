@@ -5,9 +5,11 @@
 
 
 body {
+  // common vars
   --link-color-light: #a0a0a0;
   --link-color-light-highlight: #FFF;
 
+  // variables for light scheme
   &.light {
     --bg-color:  #FFF;
     --text-color: rgba(0, 0, 0, 0.84);
@@ -15,6 +17,7 @@ body {
     --link-color-highlight: var(--text-color);
   }
 
+  // variables for dark scheme
   &.dark {
     --text-color: hsla(0,0%,100%,0.88);
     --bg-color: #1a1a1a;
@@ -29,12 +32,12 @@ body {
   font-weight: 400;
   font-kerning: normal;
   margin: 0;
-
+  transition: color 0.2s ease-out 0s, background 0.2s ease-out 0s;
   background-color: var(--bg-color);
   color: var(--text-color);
 
-  transition: color 0.2s ease-out 0s, background 0.2s ease-out 0s;
-
+  // stop pages being scrollable 
+  // used for when mobile menu is shown
   &.scroll-lock {
     position: fixed;
     overflow: hidden;
@@ -250,6 +253,8 @@ a.menu-link {
   color: white;
   margin: 20px;
   font-weight: normal;
+  border-bottom: 1px solid #FFF;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(255, 255, 255, 1) 5%);
 }
 
 .menu-link--btn {
@@ -274,7 +279,6 @@ a.menu-link {
     border-bottom-color: #FFF;
   }
 }
-
 
 
 .brush-stroke-logo {
