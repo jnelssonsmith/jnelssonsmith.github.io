@@ -55,7 +55,7 @@ class BlogIndex extends React. Component {
           <hr />
           <h2 className="header--brush-stroke">
             <span className="brush-stroke-wrapper">
-              <span className="brush-stroke-test">Latest Blog Posts</span>
+              <span className="brush-stroke--variable-width">Latest Blog Posts</span>
             </span>
           </h2>
           <BlogPosts posts={posts} numberOfPosts={3} />
@@ -66,7 +66,7 @@ class BlogIndex extends React. Component {
           <hr />
           <h2 className="header--brush-stroke">
             <span className="brush-stroke-wrapper">
-              <span className="brush-stroke-test">Projects</span>
+              <span className="brush-stroke--variable-width">Projects</span>
             </span>
           </h2>
           <p>Projects coming soon!</p>

@@ -5,26 +5,6 @@
 
 
 body {
-  // common vars
-  --link-color-light: #a0a0a0;
-  --link-color-light-highlight: #FFF;
-
-  // variables for light scheme
-  &.light {
-    --bg-color:  #FFF;
-    --text-color: rgba(0, 0, 0, 0.84);
-    --link-color: var(--text-color);
-    --link-color-highlight: var(--text-color);
-  }
-
-  // variables for dark scheme
-  &.dark {
-    --text-color: hsla(0,0%,100%,0.88);
-    --bg-color: #1a1a1a;
-    --link-color: #a0a0a0;
-    --link-color-highlight: #FFF;
-  }
-  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.02em;
@@ -237,7 +217,6 @@ pre {
 }
 
 .menu-container {
-  color: white;
   z-index: 101;
   width: 100%;
   display: flex;
@@ -250,33 +229,32 @@ pre {
 }
 
 a.menu-link {
-  color: white;
+  color: var(--menu-link-color);
   margin: 20px;
   font-weight: normal;
-  border-bottom: 1px solid #FFF;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(255, 255, 255, 1) 5%);
+  border-bottom: 1px solid var(--menu-link-color);;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--menu-link-color) 5%);
 }
 
 .menu-link--btn {
   background-color: transparent;
-  color: inherit;
+  color: var(--menu-link-color);
   font: inherit;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid var(--menu-link-color);
   border-left: none;
   border-right: none;
   border-top: none;
   margin: 20px;
   cursor: pointer;
   text-decoration: none;
-  border-bottom: 1px solid #FFF;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, rgba(255, 255, 255, 1) 5%);
+  border-bottom: 1px solid var(--menu-link-color);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--menu-link-color) 5%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   transition: 0.1s linear all;
 
   &:hover {
     background-size: 100% 100%;
-    border-bottom-color: #FFF;
   }
 }
 
@@ -290,13 +268,13 @@ a.menu-link {
 
   &:hover, &focus {
     @include brush-stroke-bg($brush-stroke-dark-highlight);
-    color: black;
+    color: #000;
   }
 
   .dark & {
-    @include brush-stroke-bg(#FFF);
+    @include brush-stroke-bg($brush-stroke-light);
     &:hover, &focus {
-      @include brush-stroke-bg(#FFF);
+      @include brush-stroke-bg($brush-stroke-light-highlight);
     }
   }
 
@@ -340,7 +318,7 @@ a.menu-link {
     z-index: -1;
 
     .dark & {
-      @include brush-stroke-bg(#FFF);
+      @include brush-stroke-bg($brush-stroke-light-highlight);
     }
   }
 
@@ -475,7 +453,7 @@ footer {
   font-weight: normal;
 }
 
-.brush-stroke-test::after {
+.brush-stroke--variable-width::after {
   content: '';
   height: calc(100% + 10px);
   width: calc(100% + 34px);
@@ -491,8 +469,6 @@ footer {
     @include brush-stroke-bg(#FFF);
   }
 }
-
-
 
 .toggle-container {
   margin-right: 10px;
