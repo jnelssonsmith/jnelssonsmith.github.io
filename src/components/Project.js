@@ -41,8 +41,10 @@ class Project extends React.Component {
           <p>{description}</p>
         </div>
         <div className="project__bottom-container">
-
-          <p><a href="#">View source code</a></p>
+          <div className="project__links-container">
+            {link && <p><a href={link}>Visit site</a></p>}
+            {sourceCodeLink && <p><a href={sourceCodeLink}>View source code</a></p>}
+          </div>
           {this._renderTechnologies()}
         </div>
       </div>

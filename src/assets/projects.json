@@ -3,17 +3,40 @@
     "react": {
       "label": "React",
       "href": "https://reactjs.org/"
+    },
+    "pwa": {
+      "label": "PWA",
+      "href": "https://developers.google.com/web/progressive-web-apps/"
+    },
+    "gatsby": {
+      "label": "Gatsby",
+      "href": "https://www.gatsbyjs.org/"
     }
   },
   "data": [
     {
-      "title": "Title",
-      "role": "Role",
-      "client": "Client",
-      "employer": "Employer",
-      "description": "Description",
+      "title": "PWA To-do List",
+      "role": "",
+      "client": "Personal Project",
+      "employer": "",
+      "link": "https://pwa-todo-list.now.sh/",
+      "description": "A simple to-do list app that is PWA enabled. Built using react.",
+      "sourceCodeLink": "https://github.com/jnelssonsmith/jnelssonsmith.github.io",
       "technologies": [
-        "react"
+        "react",
+        "pwa"
+      ]
+    },
+    {
+      "title": "jnelssonsmith.com",
+      "role": "",
+      "client": "Personal Project",
+      "employer": "",
+      "description": "This website! Built using gatsby. Featuring theming ",
+      "sourceCodeLink": "https://github.com/jnelssonsmith/jnelssonsmith.github.io",
+      "technologies": [
+        "react",
+        "gatsby"
       ]
     }
   ]

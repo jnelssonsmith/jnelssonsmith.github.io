@@ -24,7 +24,11 @@ class Projects extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <p>Projects page</p>
+        <h2 className="header--brush-stroke">
+            <span className="brush-stroke-wrapper">
+              <span className="brush-stroke--variable-width">Projects</span>
+            </span>
+          </h2>
         {projects.data.map(p => (<Project {...p} linkMap={projects.linkMap} />))}
       </Layout>
     )
