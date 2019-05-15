@@ -3,12 +3,12 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Layout from '../../components/Layout'
-import Project from '../../components/Project'
 
-import projects from '../../assets/projects.json'
+
+import Projects from '../../components/Projects'
 import '../../assets/index.scss';
 
-class Projects extends React.Component {
+class ProjectsPage extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(
@@ -29,13 +29,13 @@ class Projects extends React.Component {
               <span className="brush-stroke--variable-width">Projects</span>
             </span>
           </h2>
-        {projects.data.map(p => (<Project {...p} linkMap={projects.linkMap} />))}
+        <Projects />
       </Layout>
     )
   }
 }
 
-export default Projects
+export default ProjectsPage
 
 export const pageQuery = graphql`
   query {

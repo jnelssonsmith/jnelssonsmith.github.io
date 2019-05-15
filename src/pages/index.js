@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import BlogPosts from '../components/BlogPosts'
+import Projects from '../components/Projects'
 
 import '../assets/index.scss';
 
@@ -66,10 +67,13 @@ class BlogIndex extends React. Component {
           <hr />
           <h2 className="header--brush-stroke">
             <span className="brush-stroke-wrapper">
-              <span className="brush-stroke--variable-width">Projects</span>
+              <span className="brush-stroke--variable-width">Latest Projects</span>
             </span>
           </h2>
-          <p>Projects coming soon!</p>
+          <Projects numberOfProjects={3} />
+          <p><a className="blog-post-link" href="/projects">
+            See all projects
+          </a></p>
         </div>
         
       </Layout>
