@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="509px" viewBox="0 0 320 509" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.77468766%" y1="95.984496%" x2="80.7723104%" y2="14.5219894%" id="linearGradient-1">
+            <stop stop-color="#8B95C9" offset="0%"></stop>
+            <stop stop-color="#4F517D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M-4.97379915e-14,-5.68434189e-14 L171.854545,-5.68434189e-14 C183.075854,33.0495923 206.822702,49.5743885 243.09509,49.5743885 C279.367478,49.5743885 305.002448,63.4357195 320,91.1583816 L320,508.149793 C117.099756,477.745124 10.4330898,469.899708 -4.4408921e-15,484.613542 C-10.4330898,499.327377 -10.4330898,510.122863 -4.97379915e-14,517 L-4.97379915e-14,-5.68434189e-14 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

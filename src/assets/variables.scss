@@ -1,0 +1,31 @@
+$brush-stroke-dark: #000;
+$brush-stroke-dark-highlight: #a0a0a0;
+$brush-stroke-light: #a0a0a0;
+$brush-stroke-light-highlight: #FFF;
+
+body {
+  // common vars
+  --link-color-light: #a0a0a0;
+  --link-color-light-highlight: #FFF;
+  --menu-link-color: #FFF;
+
+  // variables for light scheme
+  &.light {
+    --bg-color:  #FFF;
+    --text-color: rgba(0, 0, 0, 0.84);
+    --link-color: var(--text-color);
+    --link-color-highlight: var(--text-color);
+    --brush-stroke: #000;
+    --brush-stroke-highlight: #a0a0a0;
+  }
+
+  // variables for dark scheme
+  &.dark {
+    --text-color: white; //hsla(0,0%,100%,0.88);
+    --bg-color: #1a1a1a;
+    --link-color: #a0a0a0;
+    --link-color-highlight: #FFF;
+    --brush-stroke: #FFF;
+    --brush-stroke-highlight: #FFF;
+  }
+}

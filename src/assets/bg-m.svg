@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1366px" height="768px" viewBox="0 0 1366 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.37251078%" y1="96.1599826%" x2="72.2528398%" y2="20.7280115%" id="linearGradient-1">
+            <stop stop-color="#8B95C9" offset="0%"></stop>
+            <stop stop-color="#4F517D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1.0658141e-14,1.0658141e-14 C475.115306,1.0658141e-14 712.672958,1.0658141e-14 712.672958,1.0658141e-14 C712.672958,1.0658141e-14 742.987609,120.194852 1056.74213,120.194852 C1265.91181,120.194852 1368.99776,163.176329 1366,249.139283 L1366,768 C851.170113,716.383876 475.216402,690.575814 238.138867,690.575814 C1.06133188,690.575814 -78.3182905,716.383876 1.0658141e-14,768 L1.0658141e-14,1.0658141e-14 Z" id="Path-2"></path>
+        </g>
+    </g>
+</svg>
