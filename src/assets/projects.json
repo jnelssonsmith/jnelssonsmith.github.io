@@ -32,7 +32,7 @@
       "role": "",
       "client": "Personal Project",
       "employer": "",
-      "description": "This website! Built using gatsby. Featuring theming ",
+      "description": "This website! Built using gatsby. Featuring light/dark theming. ",
       "sourceCodeLink": "https://github.com/jnelssonsmith/jnelssonsmith.github.io",
       "technologies": [
         "react",
