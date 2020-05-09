@@ -11,9 +11,26 @@
     "gatsby": {
       "label": "Gatsby",
       "href": "https://www.gatsbyjs.org/"
+    },
+    "typescript": {
+      "label": "Typescript",
+      "href": "https://www.typescriptlang.org/"
     }
   },
   "data": [
+    {
+      "title": "Sorting Algorithm Visualiser",
+      "role": "",
+      "client": "Personal Project",
+      "employer": "",
+      "link": "https://sorting-algorithm-visualiser.now.sh/",
+      "description": "A project to help visualise different sorting algorithms and their relative performance. Users are able to choose between different sorting algorithms and pick between different array sizes and playback speeds.",
+      "sourceCodeLink": "https://github.com/jnelssonsmith/sorting-algorithm-visualiser",
+      "technologies": [
+        "react",
+        "typescript"
+      ]
+    },
     {
       "title": "PWA To-do List",
       "role": "",
